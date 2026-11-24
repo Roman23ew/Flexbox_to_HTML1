@@ -1,0 +1,101 @@
+* {
+     box-sizing: border-box;
+}
+*:before, *:after {
+     box-sizing: inherit;
+
+}
+
+header {
+		position: sticky;
+  		top: -15px;
+		padding-top: 15px;
+		opacity: 1;
+		Background-color: white;
+}
+
+body{
+    background-color: lightblue;
+    
+}
+
+.container{
+    /* width: 56rem; */
+    margin: 3rem auto;
+}
+
+.title{
+    border-bottom: 1px dotted #bbbbbb;
+    /* width: 25rem; */
+    margin-bottom: 4rem;
+
+}
+
+.section{
+    margin-bottom: 3rem;
+}
+p{
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    color: rgb(76, 107, 80);
+}
+h1{
+    font-family: Georgia;
+    font-size: 2rem;
+    color: rgb(84, 37, 128)
+}
+h2{
+    font-family: 'Times New Roman';
+    font-size: 2rem;
+    color: blueviolet
+}
+h3{
+    font-family: Verdana;
+    font-size: 1.5rem;
+    color: rgb(4, 43, 15)
+}
+
+a:link{
+    color: rgb(102, 73, 73) 
+}
+
+a:visited{
+    color: brown
+}
+
+hr{
+    border: 0;
+    width: 90%;
+    color: green;
+    background-color: green;
+    height: 5px;
+}
+
+th{
+    color: darkmagenta;
+    font-size: 1.2rem;
+    border: 1px solid navy;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+td{
+    color: darkorchid;
+    font-size: 1.1rem;
+    border: 1px solid green;
+}
+
+td {
+    color: darkorchid;
+    font-size: 1.1rem;
+    border: 1px solid green;
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 0px 8px 10px 0px rgba(138, 127, 127, 0.55);
+}
+.round{
+    border-radius: 50%;
+}
+
+/* Arsen helped me */
